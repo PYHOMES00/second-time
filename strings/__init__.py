@@ -3,7 +3,7 @@ from typing import List
 
 import yaml
 
-LOGGERS = "VEENA_HELP_BOT"  # connect errors api key "Dont change it"
+LOGGERS = "VeenaMusic_bot"  # connect errors api key "Dont change it"
 
 languages = {}
 languages_present = {}
